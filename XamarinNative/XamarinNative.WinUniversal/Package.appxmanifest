@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="400ab314-0b77-461e-a212-84d3c19d2543"
+    Name="83b5e906-4a3a-439c-a269-7a0a1522795b"
     Publisher="CN=Francesco"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="400ab314-0b77-461e-a212-84d3c19d2543" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="83b5e906-4a3a-439c-a269-7a0a1522795b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>XamarinNative.WinPhone</DisplayName>
+    <DisplayName>XamarinNative.WinUniversal</DisplayName>
     <PublisherDisplayName>Francesco</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="XamarinNative.WinPhone.App">
+      EntryPoint="XamarinNative.WinUniversal.App">
       <uap:VisualElements
-        DisplayName="XamarinNative.WinPhone"
+        DisplayName="XamarinNative.WinUniversal"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="XamarinNative.WinPhone"
+        Description="XamarinNative.WinUniversal"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
