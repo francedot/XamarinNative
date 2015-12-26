@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>a0ecd8ea-ae34-46d2-87ea-f5e1ef777ea5</ProjectGuid>
+    <ProjectGuid>{A0ECD8EA-AE34-46D2-87EA-F5E1EF777EA5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>XamarinNative.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
@@ -143,6 +143,12 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="280_200Corradi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="fotolanz.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
